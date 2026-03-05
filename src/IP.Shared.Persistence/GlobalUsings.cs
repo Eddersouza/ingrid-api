@@ -1,0 +1,17 @@
+﻿global using IP.Shared.Abstractions.Sessions;
+global using IP.Shared.Domain.Entities;
+global using IP.Shared.Persistence;
+global using IP.Shared.Persistence.Contexts;
+global using IP.Shared.Persistence.Data;
+global using IP.Shared.Persistence.Interceptors;
+global using IP.Shared.Persistence.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Data.Common;
+global using System.Linq.Expressions;
+global using System.Reflection;

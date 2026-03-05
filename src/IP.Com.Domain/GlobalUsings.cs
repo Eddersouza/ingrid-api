@@ -1,0 +1,1 @@
+﻿global using IP.Shared.Domain.Entities;

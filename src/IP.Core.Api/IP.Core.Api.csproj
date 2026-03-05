@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ 
+  <ItemGroup>
+    <None Remove="Customers\GetSelect\GetSelectItemsEmployeeQueryHandler.cs~RF24d8fdc3.TMP" />
+    <None Remove="Customers\Get\GetCustomersQueryHandler.cs~RF23950ef2.TMP" />
+    <None Remove="Employees\Create\CreateEmployeeCommandValidator.cs~RF49dbec39.TMP" />
+    <None Remove="Employees\Create\CreateEmployeeViews.cs~RF49d8567f.TMP" />
+    <None Remove="Employees\Delete\5prxfxlx.vbc~" />
+    <None Remove="Employees\GetTeamById\GetEmployeeTeamQueryHandler.cs~RF14ff0a6f.TMP" />
+    <None Remove="Employees\GetTeamById\GetEmployeeTeamQueryHandler.cs~RF1505e254.TMP" />
+    <None Remove="Employees\Update\4cde5q4o.g1x~" />
+    <None Remove="Employees\Update\s02zxogi.hxu~" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IP.Core.Persistence\IP.Core.Persistence.csproj" />
+    <ProjectReference Include="..\IP.IDI.Domain\IP.IDI.Domain.csproj" />
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\IP.Shared.Api\IP.Shared.Api.csproj" />
+    <ProjectReference Include="..\IP.Shared.CQRSMessaging\IP.Shared.CQRSMessaging.csproj" />
+  </ItemGroup>
+</Project>

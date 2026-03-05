@@ -1,0 +1,11 @@
+﻿global using FluentValidation;
+global using FluentValidation.Results;
+global using IP.Shared.Abstractions;
+global using IP.Shared.Abstractions.Errors;
+global using IP.Shared.Abstractions.Results;
+global using IP.Shared.CQRSMessaging.Behaviors;
+global using IP.Shared.CQRSMessaging.Messages;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using System.Reflection;
+global using System.Text.Json;

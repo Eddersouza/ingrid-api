@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <None Remove="VO\fvp2ykop.zt1~" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\IP.Shared.Domain\IP.Shared.Domain.csproj" />
+  </ItemGroup>
+</Project>

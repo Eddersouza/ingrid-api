@@ -1,0 +1,9 @@
+﻿global using IP.Core.Domain.BusinessBranches;
+global using IP.Core.Domain.BusinessSegments;
+global using IP.Core.Domain.Cities;
+global using IP.Core.Domain.Customers;
+global using IP.Core.Domain.States;
+global using IP.Shared.Abstractions.Errors;
+global using IP.Shared.Abstractions.Extensions;
+global using IP.Shared.Domain.Entities;
+global using System.ComponentModel;

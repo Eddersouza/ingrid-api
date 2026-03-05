@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Handlebars.Net" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IP.Com.Persistence\IP.Com.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\IP.Shared.Api\IP.Shared.Api.csproj" />
+    <ProjectReference Include="..\IP.Shared.IntegrationEvents\IP.Shared.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\IP.Shared.Security\IP.Shared.Security.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="EmailTemplates\ChangePassword.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="EmailTemplates\CreatedUser.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ 
+  <ItemGroup>
+    <None Remove="AccountsIP\AccountIP.cs~RF16c2a1fb.TMP" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\IP.Shared.Domain\IP.Shared.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

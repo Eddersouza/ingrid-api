@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <ProjectReference Include="..\IP.Com.Persistence\IP.Com.Persistence.csproj" />
+
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+
+    <ProjectReference Include="..\IP.Shared.Emails\IP.Shared.Emails.csproj" />
+    <ProjectReference Include="..\IP.Shared.Workers\IP.Shared.Workers.csproj" />
+  </ItemGroup>
+
+</Project>

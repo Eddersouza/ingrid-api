@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <PackageReference Include="SSH.NET" />
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+
+    <ProjectReference Include="..\IP.Shared.AWS\IP.Shared.AWS.csproj" />
+  </ItemGroup>
+
+</Project>

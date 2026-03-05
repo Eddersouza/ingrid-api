@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\IP.IDI.Domain\IP.IDI.Domain.csproj" />
+    <ProjectReference Include="..\IP.IDI.Persistence\IP.IDI.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\IP.Shared.Api\IP.Shared.Api.csproj" />
+    <ProjectReference Include="..\IP.Shared.CQRSMessaging\IP.Shared.CQRSMessaging.csproj" />
+    <ProjectReference Include="..\IP.Shared.IntegrationEvents\IP.Shared.IntegrationEvents.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Users\Confirm\" />
+  </ItemGroup>
+
+</Project>

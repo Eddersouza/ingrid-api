@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\IP.AccCust.Api\IP.AccCust.Api.csproj" />
+    <ProjectReference Include="..\IP.AccCust.Workers\IP.AccCust.Workers.csproj" />
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\IP.Shared.Api\IP.Shared.Api.csproj" />
+    <ProjectReference Include="..\IP.Shared.CQRSMessaging\IP.Shared.CQRSMessaging.csproj" />
+    <ProjectReference Include="..\IP.Shared.IntegrationEvents\IP.Shared.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\IP.Shared.IP\IP.Shared.IP.csproj" />
+    <ProjectReference Include="..\IP.Shared.Security\IP.Shared.Security.csproj" />
+    <ProjectReference Include="..\IP.Shared.Workers\IP.Shared.Workers.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿global using IP.IDI.Domain.AppGuides;
+global using IP.IDI.Domain.Roles;
+global using IP.IDI.Domain.Users;
+global using IP.IDI.Persistence.Data;
+global using IP.Shared.Abstractions;
+global using IP.Shared.Abstractions.Auths;
+global using IP.Shared.Abstractions.Auths.Claims;
+global using IP.Shared.Persistence;
+global using IP.Shared.Persistence.Contexts;
+global using IP.Shared.Persistence.Converters;
+global using IP.Shared.Persistence.Data;
+global using IP.Shared.Persistence.Repositories;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;

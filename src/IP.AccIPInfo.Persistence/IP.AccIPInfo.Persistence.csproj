@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IP.AccIPInfo.Domain\IP.AccIPInfo.Domain.csproj" />
+    <ProjectReference Include="..\IP.Shared.Persistence\IP.Shared.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AccountsIP\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿global using IP.Core.Domain.Addresses;
+global using IP.Core.Domain.BusinessBranches;
+global using IP.Core.Domain.Cities;
+global using IP.Core.Domain.Customers;
+global using IP.Core.Domain.Employees;
+global using IP.Core.Domain.States;
+global using IP.Core.Domain.VO;
+global using IP.Core.Persistence.Data;
+global using IP.Shared.Abstractions;
+global using IP.Shared.Persistence;
+global using IP.Shared.Persistence.Contexts;
+global using IP.Shared.Persistence.Converters;
+global using IP.Shared.Persistence.Data;
+global using IP.Shared.Persistence.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;

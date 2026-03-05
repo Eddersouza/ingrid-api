@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <None Remove="scwob4xg.uhv~" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <ProjectReference Include="..\IP.AccCust.Api\IP.AccCust.Api.csproj" />
+    <ProjectReference Include="..\IP.AccCust.Persistence\IP.AccCust.Persistence.csproj" />
+
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\IP.Shared.Workers\IP.Shared.Workers.csproj" />
+  </ItemGroup>
+</Project>

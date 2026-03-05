@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IP.AccIPInfo.Api\IP.AccIPInfo.Api.csproj" />
+    <ProjectReference Include="..\IP.AccIPInfo.Persistence\IP.AccIPInfo.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Com.Api\IP.Com.Api.csproj" />
+    <ProjectReference Include="..\IP.Com.Persistence\IP.Com.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Com.Workers\IP.Com.Workers.csproj" />
+    <ProjectReference Include="..\IP.Core.Api\IP.Core.Api.csproj" />
+    <ProjectReference Include="..\IP.Core.Persistence\IP.Core.Persistence.csproj" />
+    <ProjectReference Include="..\IP.IDI.Api\IP.IDI.Api.csproj" />
+    <ProjectReference Include="..\IP.IDI.Persistence\IP.IDI.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Shared.Abstractions\IP.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\IP.Shared.Api\IP.Shared.Api.csproj" />
+    <ProjectReference Include="..\IP.Shared.CQRSMessaging\IP.Shared.CQRSMessaging.csproj" />
+    <ProjectReference Include="..\IP.Shared.Emails\IP.Shared.Emails.csproj" />
+    <ProjectReference Include="..\IP.Shared.EndpointModules\IP.Shared.EndpointModules.csproj" />
+    <ProjectReference Include="..\IP.Shared.IntegrationEvents\IP.Shared.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\IP.Shared.Persistence\IP.Shared.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Shared.Security\IP.Shared.Security.csproj" />
+  </ItemGroup>
+
+</Project>

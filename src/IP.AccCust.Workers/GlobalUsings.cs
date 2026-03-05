@@ -1,0 +1,13 @@
+﻿global using IP.AccCust.Api.AccountData.Integrate;
+global using IP.AccCust.Workers.IntegrateAccounts;
+global using IP.AccCust.Workers.IntegrateMovements;
+global using IP.Shared.Abstractions.Extensions;
+global using IP.Shared.Abstractions.Sessions;
+global using IP.Shared.CQRSMessaging.Messages;
+global using IP.Shared.Workers;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using Quartz;
+global using IP.AccCust.Api.AccountMovements.Integrate;

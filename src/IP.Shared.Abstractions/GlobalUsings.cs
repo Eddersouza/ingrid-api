@@ -1,0 +1,13 @@
+﻿global using IP.Shared.Abstractions.Auths.Claims;
+global using IP.Shared.Abstractions.Errors;
+global using IP.Shared.Abstractions.Extensions;
+global using IP.Shared.Abstractions.Results;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.IdentityModel.JsonWebTokens;
+global using System.Collections.Immutable;
+global using System.ComponentModel;
+global using System.Linq.Expressions;
+global using System.Reflection;
+global using System.Security.Claims;
+global using System.Text;

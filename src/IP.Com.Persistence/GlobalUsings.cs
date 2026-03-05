@@ -1,0 +1,9 @@
+﻿global using IP.Com.Domain.EmailsSchedule;
+global using IP.Com.Persistence.Data;
+global using IP.Shared.Abstractions;
+global using IP.Shared.Persistence;
+global using IP.Shared.Persistence.Contexts;
+global using IP.Shared.Persistence.Data;
+global using IP.Shared.Persistence.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;

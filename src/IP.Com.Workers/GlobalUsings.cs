@@ -1,0 +1,14 @@
+﻿global using IP.Com.Domain.EmailsSchedule;
+global using IP.Com.Persistence.Data;
+global using IP.Com.Persistence.EmailsSchedule;
+global using IP.Com.Workers.EmailsSchedule;
+global using IP.Shared.Abstractions.Extensions;
+global using IP.Shared.Abstractions.Sessions;
+global using IP.Shared.Emails;
+global using IP.Shared.Workers;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using Quartz;

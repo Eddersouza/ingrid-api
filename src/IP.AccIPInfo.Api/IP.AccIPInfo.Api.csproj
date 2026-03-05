@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ 
+  <ItemGroup>
+    <None Remove="Transactions\SummaryAccountsByOwner\GetSummaryAccountsByOwnerQueryHandler.cs~RF582e65e.TMP" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\IP.AccIPInfo.Persistence\IP.AccIPInfo.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Shared.Api\IP.Shared.Api.csproj" />
+    <ProjectReference Include="..\IP.Shared.CQRSMessaging\IP.Shared.CQRSMessaging.csproj" />
+    <ProjectReference Include="..\IP.Shared.Domain\IP.Shared.Domain.csproj" />
+    <ProjectReference Include="..\IP.Shared.EndpointModules\IP.Shared.EndpointModules.csproj" />
+  </ItemGroup>
+</Project>

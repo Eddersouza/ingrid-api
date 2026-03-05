@@ -1,0 +1,16 @@
+﻿global using IP.AccCust.Domain.AccountMovements;
+global using IP.AccCust.Domain.AccountsIP;
+global using IP.AccCust.Domain.Customers;
+global using IP.AccCust.Domain.EntityInfo;
+global using IP.AccCust.Domain.ViewInfo;
+global using IP.AccCust.Domain.VO;
+global using IP.AccCust.Persistence.Data;
+global using IP.Shared.Abstractions;
+global using IP.Shared.Persistence;
+global using IP.Shared.Persistence.Constants;
+global using IP.Shared.Persistence.Contexts;
+global using IP.Shared.Persistence.Converters;
+global using IP.Shared.Persistence.Data;
+global using IP.Shared.Persistence.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;

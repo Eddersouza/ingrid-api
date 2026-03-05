@@ -1,0 +1,14 @@
+﻿global using Amazon;
+global using Amazon.Runtime;
+global using Amazon.SimpleEmailV2;
+global using Amazon.SimpleEmailV2.Model;
+global using FluentEmail.Core;
+global using FluentEmail.Core.Models;
+global using FluentEmail.Smtp;
+global using IP.Shared.Abstractions.Extensions;
+global using IP.Shared.Emails.Services;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Options;
+global using System.Net;
+global using System.Net.Mail;

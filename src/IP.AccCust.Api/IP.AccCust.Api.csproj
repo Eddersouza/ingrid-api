@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">  
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\IP.AccCust.Persistence\IP.AccCust.Persistence.csproj" />
+    <ProjectReference Include="..\IP.Shared.Api\IP.Shared.Api.csproj" />
+    <ProjectReference Include="..\IP.Shared.CQRSMessaging\IP.Shared.CQRSMessaging.csproj" />
+    <ProjectReference Include="..\IP.Shared.IP\IP.Shared.IP.csproj" />
+  </ItemGroup>
+</Project>

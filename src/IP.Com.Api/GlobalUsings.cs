@@ -1,0 +1,12 @@
+﻿global using HandlebarsDotNet;
+global using IP.Com.Domain.EmailsSchedule;
+global using IP.Com.Persistence.Data;
+global using IP.Com.Persistence.EmailsSchedule;
+global using IP.Shared.Abstractions;
+global using IP.Shared.Api.Endpoints;
+global using IP.Shared.IntegrationEvents;
+global using IP.Shared.IntegrationEvents.Contracts;
+global using System.Reflection;
+global using IP.Shared.Api.Options;
+global using IP.Shared.Security;
+global using Microsoft.Extensions.Options;
