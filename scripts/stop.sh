@@ -1,4 +1,6 @@
 #!/bin/bash
 set -euxo pipefail
 
-sudo pkill -f dotnet || true
+echo "Stopping backend..."
+
+systemctl stop backend || true
