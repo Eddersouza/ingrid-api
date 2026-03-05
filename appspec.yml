@@ -6,7 +6,7 @@ files:
     destination: /var/www/backend
 
   - source: deploy/systemd/backend.service
-    destination: /etc/systemd/system/backend.service
+    destination: /etc/systemd/system/
 
 hooks:
   ApplicationStop:
