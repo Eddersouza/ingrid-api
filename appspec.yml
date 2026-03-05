@@ -6,25 +6,25 @@ files:
     destination: /var/www/backend
 
   - source: deploy/systemd/backend.service
-    destination: /etc/systemd/system/
+    destination: /etc/systemd/system/backend.service
 
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
       timeout: 300
-      runas: ec2-user
+      runas: root
 
   AfterInstall:
     - location: scripts/install.sh
       timeout: 300
-      runas: ec2-user
+      runas: root
 
   ApplicationStart:
     - location: scripts/start.sh
       timeout: 300
-      runas: ec2-user
+      runas: root
 
   ValidateService:
     - location: scripts/healthcheck.sh
       timeout: 60
-      runas: ec2-user
+      runas: root
