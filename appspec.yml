@@ -5,6 +5,9 @@ files:
   - source: build/
     destination: /var/www/backend
 
+  - source: deploy/systemd/backend.service
+    destination: /etc/systemd/system/backend.service
+
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
