@@ -5,11 +5,9 @@ echo "Stopping old process..."
 
 sudo systemctl stop backend || true
 
-echo "Starting backend..."
-
-sudo systemctl start backend
-
 echo "Starting backend service..."
+
+systemctl daemon-reload
 
 systemctl enable backend
 systemctl restart backend
