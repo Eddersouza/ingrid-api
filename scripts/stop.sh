@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euxo pipefail
 
-echo "Stopping wwwhost..."
+echo "Stopping backend..."
 
-systemctl stop wwwhost || true
+systemctl stop backend || true

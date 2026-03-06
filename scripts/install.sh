@@ -5,7 +5,7 @@ echo "Installing backend..."
 
 mkdir -p /var/www/backend
 
-chmod 644 /etc/systemd/system/wwwhost.service
+chmod 644 /etc/systemd/system/backend.service
 
 systemctl daemon-reload
 
