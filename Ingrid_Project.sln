@@ -103,13 +103,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{0589
 		scripts\stop.sh = scripts\stop.sh
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{34D4F484-5F66-420D-9BB9-FF797B49A00D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "systemd", "systemd", "{00956B40-657B-4BD6-99FA-11BEACE2C1B1}"
-	ProjectSection(SolutionItems) = preProject
-		deploy\systemd\backend.service = deploy\systemd\backend.service
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -282,8 +275,6 @@ Global
 		{DCFB500D-8A42-47B2-8BF4-F328A2EED125} = {99985500-F7B6-438B-8F79-71DB3A316B11}
 		{993D7FBA-F42B-4050-B9A0-DAA2ADCC5282} = {99985500-F7B6-438B-8F79-71DB3A316B11}
 		{0589C7CF-DD9F-4EA5-B894-4000A30E6E9B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{34D4F484-5F66-420D-9BB9-FF797B49A00D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{00956B40-657B-4BD6-99FA-11BEACE2C1B1} = {34D4F484-5F66-420D-9BB9-FF797B49A00D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C4D11B2-99EF-4419-9005-0029E81FA13B}

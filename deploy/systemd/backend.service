@@ -12,6 +12,8 @@ SyslogIdentifier=backend
 User=ec2-user
 Environment=ASPNETCORE_ENVIRONMENT=Production
 Environment=ASPNETCORE_URLS=http://0.0.0.0:5000
+StandardOutput=journal
+StandardError=journal
 
 [Install]
 WantedBy=multi-user.target

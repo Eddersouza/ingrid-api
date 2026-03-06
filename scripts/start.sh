@@ -3,13 +3,13 @@ set -euxo pipefail
 
 echo "Stopping old process..."
 
-sudo systemctl stop backend || true
+sudo systemctl stop wwwhost || true
 
-echo "Starting backend service..."
+echo "Starting wwwhost service..."
 
 systemctl daemon-reload
 
-systemctl enable backend
-systemctl restart backend
+systemctl enable wwwhost
+systemctl restart wwwhost
 
-echo "Backend started"
+echo "wwwhost started"
